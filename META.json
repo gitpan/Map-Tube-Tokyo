@@ -1,5 +1,5 @@
 {
-   "abstract" : "Interface to the Tokyo Tube Map.",
+   "abstract" : "Interface to the Tokyo Subway.",
    "author" : [
       "Mohammad S Anwar <mohammad.anwar@yahoo.com>"
    ],
@@ -34,7 +34,7 @@
          "requires" : {
             "File::Share" : "0",
             "File::ShareDir::Install" : "0",
-            "Map::Tube" : "2.26",
+            "Map::Tube" : "2.27",
             "Moo" : "0",
             "namespace::clean" : "0",
             "perl" : "5.006"
@@ -49,5 +49,5 @@
          "web" : "https://github.com/Manwar/Map-Tube-Tokyo"
       }
    },
-   "version" : "0.03"
+   "version" : "0.04"
 }
