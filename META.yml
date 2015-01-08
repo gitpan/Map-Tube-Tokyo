@@ -7,7 +7,7 @@ build_requires:
 configure_requires:
   ExtUtils::MakeMaker: '0'
 dynamic_config: 1
-generated_by: 'ExtUtils::MakeMaker version 7, CPAN::Meta::Converter version 2.141520'
+generated_by: 'ExtUtils::MakeMaker version 7.0505, CPAN::Meta::Converter version 2.143240'
 license: artistic_2
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
@@ -17,13 +17,24 @@ no_index:
   directory:
     - t
     - inc
+provides:
+  Map::Tube::Tokyo:
+    file: lib/Map/Tube/Tokyo.pm
+    version: '0.11'
+  Map::Tube::Tokyo::Line::Asakusa:
+    file: lib/Map/Tube/Tokyo/Line/Asakusa.pm
+    version: '0.11'
+  Map::Tube::Tokyo::Line::Chiyoda:
+    file: lib/Map/Tube/Tokyo/Line/Chiyoda.pm
+    version: '0.11'
 requires:
   File::Share: '0'
   File::ShareDir::Install: '0'
-  Map::Tube: '2.46'
+  Map::Tube: '2.61'
   Moo: '0'
   namespace::clean: '0'
   perl: '5.006'
 resources:
   repository: https://github.com/Manwar/Map-Tube-Tokyo.git
-version: '0.10'
+version: '0.11'
+
